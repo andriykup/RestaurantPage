@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    
+}
+
+button {
+    border: none;
+    margin: 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: burlywood;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(222, 184, 135, 0.509);
+}
