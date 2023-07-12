@@ -1,0 +1,26 @@
+{
+  "name": "restaurantpage",
+  "version": "1.0.0",
+  "description": "the oding project ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriykup/RestaurantPage.git"
+  },
+  "author": "Andriy Kupinskyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andriykup/RestaurantPage/issues"
+  },
+  "homepage": "https://github.com/andriykup/RestaurantPage#readme",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^4.15.1"
+  }
+}
