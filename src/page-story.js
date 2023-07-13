@@ -3,7 +3,7 @@ export function pageStory() {
     mainSection.setAttribute('id', 'mainSection')
     const mainImg = document.createElement('img');
 
-    mainImg.src = "./img/mainImg.webp"
+    mainImg.src = "./img/mainImg.jpg"
     mainImg.style.width = "600px"
 
     content.appendChild(mainSection);

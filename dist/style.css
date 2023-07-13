@@ -1,6 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     height: 100vh;
+    background-color: beige;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    min-height: 94vh;
 }
 
 header {
@@ -9,10 +20,17 @@ header {
     
 }
 
+footer {
+    display: flex;
+    min-height: 4vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #mainSection {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding: 50px 0 50px 0;
 }
 
 button {
@@ -27,4 +45,14 @@ button {
 button:hover {
     cursor: pointer;
     background-color: rgba(222, 184, 135, 0.509);
+}
+
+/*.menuItem is in page-menu.js*/
+.menuItem {
+    height: 300px;
+    border: 2px solid black;
+}
+
+img {
+    border-radius: 10px;
 }
