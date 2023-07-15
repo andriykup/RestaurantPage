@@ -64,9 +64,19 @@ button:hover {
 /*.menuItem is in page-menu.js*/
 .menuItem {
     height: 300px;
-    border: 2px solid black;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 img {
     border-radius: 10px;
+}
+
+.responsiveImg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }

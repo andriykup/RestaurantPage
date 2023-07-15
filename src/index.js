@@ -6,7 +6,7 @@ import { pageContacts } from "./page-contacts.js";
 
 //removeMainSection() removes section befora ading new one afte tab button 
 //was clicked, prevent content duplication.
-export function removeMainSection(){
+function removeMainSection(){
     mainSection.remove();
 }
 
